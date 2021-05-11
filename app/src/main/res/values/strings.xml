@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CraigFish</string>
+    <string name="craig_carr">Craig Carr</string>
+    <string name="code_space">Code Space</string>
+    <string name="visitors_name">Visitors\'name:</string>
+    <string name="next">Next</string>
+    <string name="back">back</string>
+    <string name="my_profile">My Profile</string>
+    <string name="i_am_an_avid_computer_enthusiast_finishing_my_studies_in_application_development_with_a_background_in_people_development_and_electronics_combining_all_of_my_skills_knowledge_and_behaviours_from_both_the_past_and_present_day_make_me_the_ideal_candiate_for_any_business">I am an avid computer enthusiast, finishing my studies in Application Development, with a background in people development and electronics. Combining all of my skills, knowledge and behaviours from both the past and present day make me the ideal candiate for any business.</string>
+    <string name="knowledge_skills_behaviours">Knowledge, Skills, Behaviours</string>
+    <string name="i_have_experience_in_domain_driven_design_with_test_driven_development_making_use_of_springboot_framework_my_main_programming_language_is_java_however_i_also_have_experince_in_python_javascript_html_css_sql_to_name_a_few">I have experience in Domain Driven Design with Test Driven Development, making use of Springboot Framework. My main programming language is JAVA, however I also have experince in Python, JavaScript, HTML, CSS, SQL to name a few.</string>
+    <string name="i_am_proficiant_with_version_control_mainly_using_github">I am proficiant with version control, mainly using GitHub.</string>
+    <string name="for_fun">For Fun?</string>
+    <string name="i_have_a_wide_variety_of_interests_from_hiking_in_the_great_outdoors_to_gaming_with_my_friends_and_everything_inbetween">I have a wide variety of interests, from hiking in the great outdoors, to gaming with my friends and everything inbetween.</string>
+    <string name="career_goals">Career Goals?</string>
+    <string name="i_want_to_find_a_position_where_i_can_explore_my_talents_and_grow_as_a_developer_i_find_i_can_achieve_anything_i_put_my_mind_to_and_becoming_a_top_class_developer_is_whats_on_my_mind">I want to find a position where I can explore my talents and grow as a developer. I find I can achieve anything I put my mind to and becoming a top class developer is whats on my mind:-)</string>
+</resources>

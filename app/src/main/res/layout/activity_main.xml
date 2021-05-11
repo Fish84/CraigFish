@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Craig Carr"
+                android:textSize="35sp"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code Space"
+                android:textSize="30sp"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="Visitor's Name:"
+                android:textSize="20sp"
+                android:textColor="@color/design_default_color_secondary"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:typeface="monospace"/>
+
+            <EditText
+                android:id="@+id/visitorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:background="@drawable/shapes"
+                android:drawablePadding="10dp"
+                android:hint="Enter Visitor's Name"
+                android:padding="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColorHighlight="@color/design_default_color_secondary_variant"
+                android:textColorHint="@color/design_default_color_secondary_variant"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:padding="15dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/shapebtn"
+                android:typeface="monospace"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

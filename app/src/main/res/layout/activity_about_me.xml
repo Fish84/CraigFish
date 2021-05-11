@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AboutMe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".About">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/shapebtn"
+                android:padding="15dp"
+                android:text="@string/back"
+                android:typeface="monospace"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_profile"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="191dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="@string/i_am_an_avid_computer_enthusiast_finishing_my_studies_in_application_development_with_a_background_in_people_development_and_electronics_combining_all_of_my_skills_knowledge_and_behaviours_from_both_the_past_and_present_day_make_me_the_ideal_candiate_for_any_business"
+                android:textColor="@color/design_default_color_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="192dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/me"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/knowledge_skills_behaviours"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="95dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:justificationMode="inter_word"
+            android:text="@string/i_have_experience_in_domain_driven_design_with_test_driven_development_making_use_of_springboot_framework_my_main_programming_language_is_java_however_i_also_have_experince_in_python_javascript_html_css_sql_to_name_a_few"
+            android:textColor="@color/design_default_color_secondary"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:justificationMode="inter_word"
+            android:text="@string/i_am_proficiant_with_version_control_mainly_using_github"
+            android:textColor="@color/design_default_color_secondary"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/for_fun"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/i_have_a_wide_variety_of_interests_from_hiking_in_the_great_outdoors_to_gaming_with_my_friends_and_everything_inbetween"
+            android:textSize="12dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/design_default_color_secondary"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/career_goals"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/i_want_to_find_a_position_where_i_can_explore_my_talents_and_grow_as_a_developer_i_find_i_can_achieve_anything_i_put_my_mind_to_and_becoming_a_top_class_developer_is_whats_on_my_mind"
+            android:textSize="12dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/design_default_color_secondary"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+    </LinearLayout>
+
+</ScrollView>
